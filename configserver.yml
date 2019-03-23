@@ -1,0 +1,11 @@
+server
+  port 8540
+spring
+  application
+    name app-testproject-order
+eureka
+  client
+    serviceUrl
+      defaultZone httplocalhost85eureka
+    register-with-eureka true
+    fetch-registry true
