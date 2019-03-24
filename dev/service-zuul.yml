@@ -1,3 +1,4 @@
+
 zuul: 
   routes:
     api-a: 
@@ -5,4 +6,7 @@ zuul:
       serviceId: app-navigate-member
     api-b:
       path: /api-order/**
-      serviceId: app-navigate-order 
+      serviceId: app-navigate-order
+    api-c:
+      path: /api-xx/**
+      serviceId: app-navigate-xx 
