@@ -8,5 +8,5 @@ zuul:
       path: /api-order/**
       serviceId: app-navigate-order
     api-c:
-      path: /api-xx/**
-      serviceId: app-navigate-xx 
+      path: /api-yaa/**
+      serviceId: app-navigate-yaa 
